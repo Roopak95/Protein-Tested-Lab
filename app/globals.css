@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0e13;
+  --card: #11151b;
+  --muted: #7a8499;
+}
+
+html, body {
+  background: var(--bg);
+  color: white;
+}
+
+.container {
+  @apply mx-auto max-w-6xl px-4;
+}
